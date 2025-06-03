@@ -1,0 +1,16 @@
+/home/simiyu/Documents/gym/backend/src/main/java/com/fitness/gym/repository/UserRepository.java
+/home/simiyu/Documents/gym/backend/src/main/java/com/fitness/gym/security/JwtTokenProvider.java
+/home/simiyu/Documents/gym/backend/src/main/java/com/fitness/gym/service/SupplementService.java
+/home/simiyu/Documents/gym/backend/src/main/java/com/fitness/gym/service/AuthService.java
+/home/simiyu/Documents/gym/backend/src/main/java/com/fitness/gym/security/JwtAuthenticationFilter.java
+/home/simiyu/Documents/gym/backend/src/main/java/com/fitness/gym/dto/AuthResponse.java
+/home/simiyu/Documents/gym/backend/src/main/java/com/fitness/gym/GymApplication.java
+/home/simiyu/Documents/gym/backend/src/main/java/com/fitness/gym/model/User.java
+/home/simiyu/Documents/gym/backend/src/main/java/com/fitness/gym/controller/SupplementController.java
+/home/simiyu/Documents/gym/backend/src/main/java/com/fitness/gym/repository/SupplementRepository.java
+/home/simiyu/Documents/gym/backend/src/main/java/com/fitness/gym/service/CustomUserDetailsService.java
+/home/simiyu/Documents/gym/backend/src/main/java/com/fitness/gym/controller/AuthController.java
+/home/simiyu/Documents/gym/backend/src/main/java/com/fitness/gym/model/Supplement.java
+/home/simiyu/Documents/gym/backend/src/main/java/com/fitness/gym/security/SecurityConfig.java
+/home/simiyu/Documents/gym/backend/src/main/java/com/fitness/gym/dto/LoginRequest.java
+/home/simiyu/Documents/gym/backend/src/main/java/com/fitness/gym/dto/RegisterRequest.java
