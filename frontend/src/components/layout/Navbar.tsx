@@ -25,8 +25,24 @@ const Navbar = () => {
   };
 
   return (
-    <AppBar position="static" sx={{ background: 'linear-gradient(45deg, #2196F3 30%, #21CBF3 90%)' }}>
-      <Toolbar sx={{ px: { xs: 2, sm: 3, md: 6, lg: 8, xl: 10 }, minHeight: { sm: 70 } }}>
+    <AppBar position="sticky" sx={{ 
+      background: 'linear-gradient(45deg, #2196F3 30%, #21CBF3 90%)',
+      width:'100vw',
+      left: 0,
+      right: 0,
+      display: 'flex',
+      flexDirection: 'column',
+      top: 0,
+      zIndex: 1000
+    }}>
+      <Toolbar sx={{ 
+        width: '100%', 
+        px: { xs: 1, sm: 2, md: 3, lg: 4, xlg:5, xxlg:6 },
+        minHeight: { xs: 60, sm: 70, md: 80 },
+        display: 'flex',
+        alignItems: 'center',
+        justifyContent: 'space-between'
+      }}>
         <Typography 
           variant="h5" 
           component={RouterLink} 
@@ -36,12 +52,13 @@ const Navbar = () => {
             textDecoration: 'none',
             color: 'white',
             fontWeight: 'bold',
-            letterSpacing: 1
+            letterSpacing: 1,
+            display: { xs: 'block', sm: 'inline-block' }
           }}
         >
           Fitness Store
         </Typography>
-        <Box sx={{ display: 'flex', gap: 2 }}>
+        <Box sx={{ display: 'flex', gap: { xs: 1, sm: 2, md: 3 } }}>
           {isAuthenticated ? (
             <>
               <Button 
